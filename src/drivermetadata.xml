@@ -1,0 +1,8 @@
+<Driver Description="Describe the purpose of your CloudShell shell" MainClass="driver.AdminresourcehandlerDriver" Name="AdminresourcehandlerDriver" Version="1.0.0" PythonVersion="3">
+    <Layout>
+        <Category Name="Admin Commands">
+            <Command Name="AfterResourcesChanged"  DisplayName="After Resources Changed"  Description="Logic that runs after Sandbox resources have been changed"/>
+            <Command Name="BeforeResourcesChanged" DisplayName="Before Resources Changed" Description="Logic that runs before Sandbox resoruces have been changed"/>
+        </Category>
+    </Layout>
+</Driver>
